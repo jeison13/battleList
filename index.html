@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- barra de navecación-->
+    <nav>
+        <p>BattleList</p>
+    </nav>
+
+    <!-- APP BATTLELIST-->
+     <div class="container">
+
+    <!--TOKEN GENERATOR-->
+        <div class="fromToken block">
+            <div class="cabezera">
+                <p>tokens generator</p>
+            </div>
+            <form action="" class="forminput" id="frominput">
+                <P>NAME</P>
+                <input type="text" placeholder="HP" id="name">
+                <P>HP</P>
+                <input type="number" placeholder="HP" id="hp">
+                <div class="stas">
+                    <p>STAS</p>
+                    <input type="number" max="20" placeholder="str"  id="str">
+                    <input type="number" max="20" placeholder="dex"  id="dex">
+                    <input type="number" max="20" placeholder="con"  id="con">
+                    <input type="number" max="20" placeholder="int"  id="int">
+                    <input type="number" max="20" placeholder="sab"  id="sab">
+                    <input type="number" max="20" placeholder="car"  id="car">
+                </div>
+                <P>MISELANIA</P>
+                <textarea name="" id="txt" cols="30" rows="10"></textarea>
+                <button type="submit" id="enviar">Add Token</button>
+            </form>
+        </div>
+
+    <!--COMBAT AREA-->
+        <div class="battleList block">
+            <div class="cabezera">
+                <p>list</p>
+            </div>
+            <div id = 'listOn'class="listOn">
+                <p>p</p>
+            </div>
+        </div>
+
+    <!--TOKENS LIST -->
+        <div class="tokensBlock block">
+            <div class="cabezera">
+                <p>Tokens</p>
+            </div>
+            <div class="lisTokens" id="lisTokens">
+                
+            </div>
+        </div>
+
+    </div>
+    
+    <footer><p>Jeison Correa</p></footer>
+
+    <script src="app.js"></script>
+    <script src="app_app.js"></script>
+
+</body>
+</html>
