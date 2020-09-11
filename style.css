@@ -107,6 +107,21 @@ footer{
     background:whitesmoke;
 }
 
+.tokenIn {
+    text-align: center;
+    padding: 2px;
+    background:whitesmoke;
+}
+
+.tokenIn p {
+    display: inline;
+}
+
+.tittlePj{
+    color: #a33e3e;
+}
+
+
 .btnDelete{
     
     border-radius: 5px;
